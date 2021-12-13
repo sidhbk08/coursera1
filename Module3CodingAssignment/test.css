@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.navbar-header {
+    background-color: grey;
+}
+
+.navbar-brand a {
+    color: #000;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.box {
+    background-color: grey;
+}
+
+.row {
+    display: inline-block;
+}
+
+.nav{
+    text-align: center;
+    background-color: #fff;
+}
+.navbar{
+    background-color: grey;
+}
+
+.cont{
+    justify-content: space-evenly;
+    border: 1px solid black;
+    background-color: grey;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+#he1{
+    background-color: pink;
+}
+#he2{
+    background-color: red;
+}
+#he3{
+    background-color: yellow;   
+}
+.he{    
+    float: right;
+    border: 1px solid;  
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    font-size: 125%;
+}
+p{
+    width: 100%;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+
+    
+    
+}
+/* .cont1{
+margin-right: 10px;} */ 
+
+
+@media (min-width: 992px){
+.col-lg-4{
+    width: 30%;
+    float: left;
+   left:27px;
+   margin-left: 30px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+.cont{
+    float: left;
+    width: 43.75%;
+    left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.col-md-12{
+    margin:0;
+    margin-top: 20px;
+     width: 90.5%; 
+     height: 200px;
+     left: 46px;
+     position: 0;
+
+}
+}
+
+#myNavbar ul li a {
+	color: #61122F;
+}
+.navbar-brand{
+    font-size: 30px;	
+    }
+    .glyphicon{
+        font-size: 30px;
+        color:#61122F; 
+    }
+    .navbar{
+
+        border: none;
+        background-color: black;
+        color: #61122F;
+        } 
+
+@media (max-width: 767px){
+.col-sm-12{
+clear: left;
+width: 82%;
+margin-bottom: 20px;
+}
+}
